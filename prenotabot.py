@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 from selenium import webdriver
 
 from selenium import webdriver
@@ -58,17 +55,18 @@ def trova_posto(pagina, lista):
      while continua:
         pagina.refresh()
         while True:   
-            time.sleep(0.5)
+            time.sleep(5)
             button = pagina.find_elements_by_class_name('fc-time-grid-event')
             if len(button) >= max(lista):
                 break 
 
         boolean =0
         for indice in lista:
+            time.sleep(5)
             if not "ag-slot-mine" in button[indice].get_attribute("class"):
-                time.sleep(2)
+                time.sleep(5)
                 button[indice].click()
-                time.sleep(2)
+                time.sleep(5)
             else:
                 boolean=boolean+1
                 
