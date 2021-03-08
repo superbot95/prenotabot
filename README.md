@@ -13,14 +13,14 @@ INSTALLAZIONE PRENOTABOT:
 
 A questo punto dovreste aver attivato l'ambiente "envname"
 
-es. (base) C:\Users\Marachella>conda activate envname
+	es. (base) C:\Users\Marachella>conda activate envname
 
 	 (envname) C:\Users\Marachella>
 
 Ora dovete entrare nella cartella in cui avete estratto lo ZIP usando semplicemnte il comando "cd"
 oppure importando nel prompt l'indirizzo della cartella (ad esempio trascinando la cartella stessa nel prompt)
 
-es. (envname) C:\Users\Marachella>cd Desktop
+     es. (envname) C:\Users\Marachella>cd Desktop
 
 	 (envname) C:\Users\Marachella\Desktop>cd prenotabot
 
@@ -28,7 +28,7 @@ Ora bisogna installare il programma, per farlo digitate:
 
 - pyinstaller --onefile prenotabot.py
 
-es. (envname) C:\Users\Marachella\Desktop\prenotabot>pyinstaller --onefile prenotabot.py
+	  es. (envname) C:\Users\Marachella\Desktop\prenotabot>pyinstaller --onefile prenotabot.py
 
 Finita l'installazione potete finalmente avviare il bot!
 
@@ -78,29 +78,29 @@ Per prenotare un solo slot o più di uno slot ma in giorni diversi bisogna inser
  Gli indici per gli slot sono:
           
         0	lunedì  am
-        1         pm
+        1     	   "     pm
 
-	      2	martedì am
-        3    "    pm 
+        2	martedì am
+        3  	   "    pm 
 
       	4	mercoledì am
-        5    "      pm
+        5   	   "      pm
 
       	6	giovedì am
-        7    "    pm
+        7   	   "    pm
 
       	8	venerdì am
-        9    "    pm
+        9    	   "    pm
 
       	10	sabato  am
-        11     "    pm
+        11     	   "    pm
 
       	12	domenica am
-        13     "     pm
+        13    	   "     pm
 
 Es. Voglio prenotare UN posto lunedì pomeriggio al fibonacci: 
 
-{
+    {
    	 "giorno": [1],     
  	   "aula": "FB"		 
 	}
@@ -108,7 +108,7 @@ Es. Voglio prenotare UN posto lunedì pomeriggio al fibonacci:
 
 Es. Voglio prenotare DUE posti alle Piagge, uno il martedì mattina e l'altro il mercoledì pomeriggio:
 
-{
+    {
    	 "giorno": [2,5],     
  	   "aula": "PG"		 
 	}
@@ -116,7 +116,7 @@ Es. Voglio prenotare DUE posti alle Piagge, uno il martedì mattina e l'altro il
 
 Es. Voglio prenotare TRE posti, due il giovedì e uno il venerdì mattina al Ricci:
 
-{
+     {
    	 "giorno": [6,7,8],     
  	   "aula": "RC"		 
 	}
