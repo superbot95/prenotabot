@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[1]:
+
+
 from selenium import webdriver
 
 from selenium import webdriver
@@ -14,23 +17,22 @@ def chrome():
 
 def seleziona_giorno(day):
     #print("bla", day)
-    if day == "Lunedi":
-        return [0,1]
-    elif day == "Martedi": 
-        return [2,3]
-    elif day == "Mercoledi": 
-        return [4,5]
-    elif day == "Giovedi": 
-        return [6,7]
-    elif day == "Venerdi": 
-        return [8,9]
-    elif day == "Sabato":
+	if day == "Lunedi":
+		return [0,1]
+	elif day == "Martedi": 
+		return [2,3]
+	elif day == "Mercoledi":
+		return [4,5]
+	elif day == "Giovedi":
+		return [6,7]
+	elif day == "Venerdi":
+		return [8,9]
+	elif day == "Sabato":
 	    return[10,11]
-    elif day == "Domenica":
-	    return[12,13]
-
-    else:
-        print("Giorno non disponibile")    
+	elif day == "Domenica":
+	 return[12,13]
+	else:
+		print("Giorno non disponibile")    
     
 def apri_pagina(aula):
     browser = chrome()
@@ -60,18 +62,17 @@ def trova_posto(pagina, lista):
      while continua:
         pagina.refresh()
         while True:   
-            time.sleep(5)
+            time.sleep(0.5)
             button = pagina.find_elements_by_class_name('fc-time-grid-event')
             if len(button) >= max(lista):
                 break 
 
         boolean =0
         for indice in lista:
-            time.sleep(5)
             if not "ag-slot-mine" in button[indice].get_attribute("class"):
-                time.sleep(5)
+                time.sleep(2)
                 button[indice].click()
-                time.sleep(5)
+                time.sleep(2)
             else:
                 boolean=boolean+1
                 
