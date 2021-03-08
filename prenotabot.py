@@ -24,6 +24,11 @@ def seleziona_giorno(day):
         return [6,7]
     elif day == "Venerdi": 
         return [8,9]
+    elif day == "Sabato":
+	    return[10,11]
+    elif day == "Domenica":
+	    return[12,13]
+
     else:
         print("Giorno non disponibile")    
     
