@@ -1,46 +1,15 @@
 # prenotabot
 
+
 Per scaricare il programma premere sul pulsante verde "Code" e fare il Download dello ZIP
-
-INSTALLAZIONE PRENOTABOT:
-
-1) Estrarre in una cartella il file ZIP scaricato
-
-
-2) Aprire il Prompt di Anaconda e digitare:
-
-- conda activate envname
-
-A questo punto dovreste aver attivato l'ambiente "envname"
-
-Es.
-	 
-	 (base) C:\Users\Marachella>conda activate envname
-	 (envname) C:\Users\Marachella>
-
-Ora dovete entrare nella cartella in cui avete estratto lo ZIP usando semplicemnte il comando "cd"
-oppure importando nel prompt l'indirizzo della cartella (ad esempio trascinando la cartella stessa nel prompt)
-
-Es.
-   
-   	 (envname) C:\Users\Marachella>cd Desktop
-	 (envname) C:\Users\Marachella\Desktop>cd prenotabot
-
-Ora bisogna installare il programma, per farlo digitate:
-
-- pyinstaller --onefile prenotabot.py
-
-Es.
-
-	(envname) C:\Users\Marachella\Desktop\prenotabot>pyinstaller --onefile prenotabot.py
-
-Finita l'installazione potete finalmente avviare il bot!
 
 ISTRUZIONI PRENOTABOT:
 
+Estrarre in una cartella il file ZIP scaricato
+
 I) SETUP del giorno e dell'aula studio_
 
-1) Aprite la cartella dove avete estratto lo ZIP ed installato prenotabot.exe
+1) Aprite la cartella dove avete estratto lo ZIP
 
 2) Aprite la cartella dist 
 
