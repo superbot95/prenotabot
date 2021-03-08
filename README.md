@@ -13,7 +13,7 @@ INSTALLAZIONE PRENOTABOT:
 
 A questo punto dovreste aver attivato l'ambiente "envname"
 
-Es:
+Es.
 	 
 	 (base) C:\Users\Marachella>conda activate envname
 	 (envname) C:\Users\Marachella>
@@ -21,7 +21,7 @@ Es:
 Ora dovete entrare nella cartella in cui avete estratto lo ZIP usando semplicemnte il comando "cd"
 oppure importando nel prompt l'indirizzo della cartella (ad esempio trascinando la cartella stessa nel prompt)
 
-Es:
+Es.
    
    	 (envname) C:\Users\Marachella>cd Desktop
 	 (envname) C:\Users\Marachella\Desktop>cd prenotabot
