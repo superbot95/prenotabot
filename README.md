@@ -11,9 +11,7 @@ I) SETUP del giorno e dell'aula studio_
 
 1) Aprite la cartella dove avete estratto lo ZIP
 
-2) Aprite la cartella dist 
-
-3) Aprite il file :"config.json" con un editor di testo (es. blocco note, Notepad ecc..)
+2) Aprite il file :"config.json" con un editor di testo (es. blocco note, Notepad ecc..)
  
 Vi troverete scritto ad esempio: 
 
@@ -101,9 +99,7 @@ Una volta completato il SETUP potete lanciare il bot
 
 1) Andate di nuovo nella cartella dove avete estratto lo ZIP ed installato prenotabot.exe
 
-2) Aprite la cartella dist 
-
-3) Avviate l'applicazione "prenotabot.exe" 
+2) Avviate l'applicazione "prenotabot.exe" 
 
 Inserite le vostre credenziali di ateneo ed è fatta! Da qui il bot farà tutto da solo e voi potrete pensare a tutt'altro mentre lui vi cerca i posti che cercate!
 
