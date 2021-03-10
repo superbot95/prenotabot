@@ -101,6 +101,8 @@ Una volta completato il SETUP potete lanciare il bot
 
 2) Avviate l'applicazione "prenotabot.exe" 
 
-Inserite le vostre credenziali di ateneo ed è fatta! Da qui il bot farà tutto da solo e voi potrete pensare a tutt'altro mentre lui vi cerca i posti che cercate!
+Inserite le vostre credenziali di ateneo ed è fatta! Da qui il bot farà tutto da solo e voi potrete pensare a tutt'altro mentre lui vi trova i posti che cercate!
+
+!! N.B. Il computer NON DEVE ANDARE IN STANDBY fintanto che il programma è in esecuzione.
 
 	
