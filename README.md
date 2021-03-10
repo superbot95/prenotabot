@@ -3,7 +3,7 @@
 
 Per scaricare il programma premere sul pulsante verde "Code" e fare il Download dello ZIP
 
-ISTRUZIONI PRENOTABOT:
+ISTRUZIONI PER INSTALLARE SU WINDOWS 10: 
 
 Estrarre in una cartella il file ZIP scaricato
 
