@@ -3,7 +3,7 @@
 
 Per scaricare il programma premere sul pulsante verde "Code" e fare il Download dello ZIP
 
-ISTRUZIONI PER WINDOWS 10: 
+**ISTRUZIONI PER WINDOWS 10** 
 
 Estrarre in una cartella il file ZIP scaricato
 
@@ -105,7 +105,7 @@ Inserite le vostre credenziali di ateneo ed è fatta! Da qui il bot farà tutto 
 
 !! N.B. Il computer NON DEVE ANDARE IN STANDBY fintanto che il programma è in esecuzione.
 	
-ISTRUZIONI PER MAC OS X:
+**ISTRUZIONI PER MAC OS X**
 
 Aprire il terminale ed eseguire il seguente comando per installare la libreria python Selenium:
 
