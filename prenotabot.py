@@ -14,22 +14,24 @@ def chrome():
 
 def seleziona_giorno(day):
     #print("bla", day)
-	if day == "Lunedi":
-		return [0,1]
-	elif day == "Martedi": 
-		return [2,3]
-	elif day == "Mercoledi":
-		return [4,5]
-	elif day == "Giovedi":
-		return [6,7]
-	elif day == "Venerdi":
-		return [8,9]
-	elif day == "Sabato":
-	    return[10,11]
-	elif day == "Domenica":
-	 return[12,13]
-	else:
-		print("Giorno non disponibile")    
+    if day == "Lunedi":
+        return [0,1]
+    elif day == "Martedi": 
+        return [2,3]
+    elif day == "Mercoledi":
+        return [4,5]
+    elif day == "Giovedi":
+        return [6,7]
+    elif day == "Venerdi":
+        return [8,9]
+    elif day == "Sabato":
+        return [10,11]
+    elif day == "Domenica":
+        return [12,13]
+    else:
+        print("Giorno non disponibile")    
+        import sys
+        sys.exit()
     
 def apri_pagina(aula):
     browser = chrome()
@@ -44,14 +46,23 @@ def apri_pagina(aula):
     elif aula == 'RC':
         browser.get('https://agende.unipi.it/xow-pdb-krs')
         print("Fai il login con le credenziali d'ateneo")
+        return browser
     elif aula == 'PN':
         browser.get('https://agende.unipi.it/pxk-vrp-qrs')
         print("Fai il login con le credenziali d'ateneo")
+        return browser
     elif aula == 'PG':
         browser.get('https://agende.unipi.it/bno-irb-rbh')
         print("Fai il login con le credenziali d'ateneo")
+        return browser
+    elif aula == 'ET':
+        browser.get('https://agende.unipi.it/gfd-try-kjq')
+        print("Fai il login con le credenziali d'ateneo")
+        return browser
     else:
         print("Aula studio non trovata")
+        import sys
+        sys.exit()
 
 def trova_posto(pagina, lista):
      continua = True 
