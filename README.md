@@ -30,6 +30,7 @@ Codici aule:
 	'RC'	Ricci
 	'PN'	Porta Nuova
 	'PG'	Piagge
+	'ET'    Etruria
 
 Es. Voglio prenotare al Pacinotti il Lunedì:
 
