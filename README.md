@@ -31,6 +31,8 @@ Codici aule:
 	'PN'	Porta Nuova
 	'PG'	Piagge
 	'ET'    Etruria
+	'PCO'   Pacinotti esterno
+	'SVO'   Scienze veterinarie esterno
 
 Es. Voglio prenotare al Pacinotti il Lunedì:
 

@@ -59,6 +59,14 @@ def apri_pagina(aula):
         browser.get('https://agende.unipi.it/gfd-try-kjq')
         print("Fai il login con le credenziali d'ateneo")
         return browser
+    elif aula == 'PCO':
+        browser.get('https://agende.unipi.it/iqq-lno-fah')
+        print("Fai il login con le credenziali d'ateneo")
+        return browser
+    elif aula == 'SVO':
+        browser.get('https://agende.unipi.it/krp-lrn-gbp')
+        print("Fai il login con le credenziali d'ateneo")
+        return browser
     else:
         print("Aula studio non trovata")
         import sys
